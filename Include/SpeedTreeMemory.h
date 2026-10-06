@@ -32,6 +32,20 @@
 #include <stdlib.h>
 #include <stddef.h>
 
+///////////////////////////////////////////////////////////////////////
+//  Modern MSVC compatibility:
+//  Visual Studio 2015 (v140) and newer removed the _SIZT / _PDFT /
+//  _FARQ compatibility macros from <yvals.h> that the default
+//  allocator definitions below depend on.  When building with a
+//  compiler that no longer provides them, select the plain
+//  allocator branch instead (it only uses standard size_t /
+//  ptrdiff_t).
+
+#if defined(_MSC_VER) && !defined(_SIZT) && !defined(IDV_VISUALC_6)
+    #define IDV_VISUALC_6
+#endif
+
+
 
 #ifndef SPEEDTREE_SOURCE_FILE      // any file that's not the one holding the actual definitions of these variables
     #ifdef USING_SPEEDTREE_AS_DLL // should only be used in Windows applications using the DLL version, not static lib
@@ -464,10 +478,13 @@ public: \
 } \
     \
     NAME( ) { } \
+    template<typename U> NAME(NAME<U> const&) { } \
     virtual ~NAME( ) { } \
     \
     bool operator==(NAME const&) const { return true; } \
     bool operator!=(NAME const&) const { return false; } \
+    template<typename U> bool operator==(NAME<U> const&) const { return true; } \
+    template<typename U> bool operator!=(NAME<U> const&) const { return false; } \
     \
     size_t      max_size(void) const { return static_cast<size_t>(-1); } \
     TYPE*       address(TYPE& t ) { return &t; } \
@@ -513,10 +530,13 @@ public: \
 } \
     \
     NAME( ) { } \
+    template<typename U> NAME(NAME<U> const&) { } \
     virtual ~NAME( ) { } \
     \
     bool operator==(NAME const&) const { return true; } \
     bool operator!=(NAME const&) const { return false; } \
+    template<typename U> bool operator==(NAME<U> const&) const { return true; } \
+    template<typename U> bool operator!=(NAME<U> const&) const { return false; } \
     \
     size_t      max_size(void) const { return static_cast<size_t>(-1); } \
     TYPE*       address(TYPE& t ) { return &t; } \

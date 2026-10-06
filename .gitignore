@@ -1,0 +1,7 @@
+*.obj
+*.tlog
+*.log
+.vs/
+vc140.idb
+vc140.pdb
+*.user

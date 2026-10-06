@@ -1,0 +1,97 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpeedTreeRT_Static", "Source\RT_StaticLib\SpeedTreeRT_Static.vcxproj", "{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpeedTreeRT_DynamicLib", "Source\RT_DynamicLib\SpeedTreeRT_DynamicLib.vcxproj", "{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug (Full Z-up)|x64 = Debug (Full Z-up)|x64
+		Debug (Full Z-up)|x86 = Debug (Full Z-up)|x86
+		Debug (Full Y-up)|x64 = Debug (Full Y-up)|x64
+		Debug (Full Y-up)|x86 = Debug (Full Y-up)|x86
+		Debug (Eval Z-up)|x64 = Debug (Eval Z-up)|x64
+		Debug (Eval Z-up)|x86 = Debug (Eval Z-up)|x86
+		Debug (Eval Y-up)|x64 = Debug (Eval Y-up)|x64
+		Debug (Eval Y-up)|x86 = Debug (Eval Y-up)|x86
+		Release (Full Z-up)|x64 = Release (Full Z-up)|x64
+		Release (Full Z-up)|x86 = Release (Full Z-up)|x86
+		Release (Full Y-up)|x64 = Release (Full Y-up)|x64
+		Release (Full Y-up)|x86 = Release (Full Y-up)|x86
+		Release (Eval Z-up)|x64 = Release (Eval Z-up)|x64
+		Release (Eval Z-up)|x86 = Release (Eval Z-up)|x86
+		Release (Eval Y-up)|x64 = Release (Eval Y-up)|x64
+		Release (Eval Y-up)|x86 = Release (Eval Y-up)|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Full Z-up)|x64.ActiveCfg = Debug (Full Z-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Full Z-up)|x64.Build.0 = Debug (Full Z-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Full Z-up)|x86.ActiveCfg = Debug (Full Z-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Full Z-up)|x86.Build.0 = Debug (Full Z-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Full Y-up)|x64.ActiveCfg = Debug (Full Y-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Full Y-up)|x64.Build.0 = Debug (Full Y-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Full Y-up)|x86.ActiveCfg = Debug (Full Y-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Full Y-up)|x86.Build.0 = Debug (Full Y-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Eval Z-up)|x64.ActiveCfg = Debug (Eval Z-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Eval Z-up)|x64.Build.0 = Debug (Eval Z-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Eval Z-up)|x86.ActiveCfg = Debug (Eval Z-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Eval Z-up)|x86.Build.0 = Debug (Eval Z-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Eval Y-up)|x64.ActiveCfg = Debug (Eval Y-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Eval Y-up)|x64.Build.0 = Debug (Eval Y-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Eval Y-up)|x86.ActiveCfg = Debug (Eval Y-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Debug (Eval Y-up)|x86.Build.0 = Debug (Eval Y-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Full Z-up)|x64.ActiveCfg = Release (Full Z-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Full Z-up)|x64.Build.0 = Release (Full Z-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Full Z-up)|x86.ActiveCfg = Release (Full Z-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Full Z-up)|x86.Build.0 = Release (Full Z-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Full Y-up)|x64.ActiveCfg = Release (Full Y-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Full Y-up)|x64.Build.0 = Release (Full Y-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Full Y-up)|x86.ActiveCfg = Release (Full Y-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Full Y-up)|x86.Build.0 = Release (Full Y-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Eval Z-up)|x64.ActiveCfg = Release (Eval Z-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Eval Z-up)|x64.Build.0 = Release (Eval Z-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Eval Z-up)|x86.ActiveCfg = Release (Eval Z-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Eval Z-up)|x86.Build.0 = Release (Eval Z-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Eval Y-up)|x64.ActiveCfg = Release (Eval Y-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Eval Y-up)|x64.Build.0 = Release (Eval Y-up)|x64
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Eval Y-up)|x86.ActiveCfg = Release (Eval Y-up)|Win32
+		{D9A4B5E6-2F1C-4E3B-9A7D-5C6E8F0A1B2C}.Release (Eval Y-up)|x86.Build.0 = Release (Eval Y-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Full Z-up)|x64.ActiveCfg = Debug (Full Z-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Full Z-up)|x64.Build.0 = Debug (Full Z-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Full Z-up)|x86.ActiveCfg = Debug (Full Z-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Full Z-up)|x86.Build.0 = Debug (Full Z-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Full Y-up)|x64.ActiveCfg = Debug (Full Y-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Full Y-up)|x64.Build.0 = Debug (Full Y-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Full Y-up)|x86.ActiveCfg = Debug (Full Y-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Full Y-up)|x86.Build.0 = Debug (Full Y-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Eval Z-up)|x64.ActiveCfg = Debug (Eval Z-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Eval Z-up)|x64.Build.0 = Debug (Eval Z-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Eval Z-up)|x86.ActiveCfg = Debug (Eval Z-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Eval Z-up)|x86.Build.0 = Debug (Eval Z-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Eval Y-up)|x64.ActiveCfg = Debug (Eval Y-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Eval Y-up)|x64.Build.0 = Debug (Eval Y-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Eval Y-up)|x86.ActiveCfg = Debug (Eval Y-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Debug (Eval Y-up)|x86.Build.0 = Debug (Eval Y-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Full Z-up)|x64.ActiveCfg = Release (Full Z-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Full Z-up)|x64.Build.0 = Release (Full Z-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Full Z-up)|x86.ActiveCfg = Release (Full Z-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Full Z-up)|x86.Build.0 = Release (Full Z-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Full Y-up)|x64.ActiveCfg = Release (Full Y-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Full Y-up)|x64.Build.0 = Release (Full Y-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Full Y-up)|x86.ActiveCfg = Release (Full Y-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Full Y-up)|x86.Build.0 = Release (Full Y-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Eval Z-up)|x64.ActiveCfg = Release (Eval Z-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Eval Z-up)|x64.Build.0 = Release (Eval Z-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Eval Z-up)|x86.ActiveCfg = Release (Eval Z-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Eval Z-up)|x86.Build.0 = Release (Eval Z-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Eval Y-up)|x64.ActiveCfg = Release (Eval Y-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Eval Y-up)|x64.Build.0 = Release (Eval Y-up)|x64
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Eval Y-up)|x86.ActiveCfg = Release (Eval Y-up)|Win32
+		{A7C3D4E5-1B2F-4C3D-8E5A-6F7B9C0D1E2F}.Release (Eval Y-up)|x86.Build.0 = Release (Eval Y-up)|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
