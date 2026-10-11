@@ -415,9 +415,9 @@ CSpeedTreeRT::SGeometry::S360Billboard::S360Billboard( ) :
 
 CSpeedTreeRT::SGeometry::SHorzBillboard::SHorzBillboard( ) :
     m_pCoords(NULL),
-    m_pTexCoords(NULL),
     m_fAlphaTestValue(c_fClear)
 {
+	memset(m_afTexCoords, 0, sizeof(m_afTexCoords));
     // normals, binormals, and tangents are the same for each vertex, but
     // may not be in the future
     const stVec3 c_cNormal(0.0f, 0.0f, 1.0f);
@@ -3232,7 +3232,7 @@ void CSpeedTreeRT::UpdateBillboardGeometry(SGeometry& sGeometry)
                 sHBB.m_pCoords = m_afHorizontalCoords;
 
                 // the horizontal billboard is always the last billboard in the billboard sequence
-                sHBB.m_pTexCoords = m_pEmbeddedTexCoords->m_pBillboardTexCoords + (m_pEmbeddedTexCoords->m_nNumBillboards - 1) * 8;
+                memcpy(sHBB.m_afTexCoords, m_pEmbeddedTexCoords->m_pBillboardTexCoords + (m_pEmbeddedTexCoords->m_nNumBillboards - 1) * 8, 8 * sizeof(float));
                 sHBB.m_fAlphaTestValue = VecInterpolate(c_fClear, m_fTargetAlphaValue, m_fHorizontalFadeValue);
                 sHBB.m_fAlphaTestValue = VecInterpolate(sHBB.m_fAlphaTestValue, c_fClear, fFadeOut);
             }
